@@ -1,0 +1,30 @@
+# Ignore virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VSCode project settings
+.vscode/
+
+# Environment files or secrets
+.env
+*.env
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Model weights (if saved locally)
+*.bin
+*.pt
+*.pth
+
+# Ollama model storage (optional, depending on config)
+~/.ollama/
+
+# Logs
+*.log
